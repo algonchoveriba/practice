@@ -1,6 +1,6 @@
 <header>
   <div class="site-width">
-    <h1><a href="index.php">TEST MARKET</a></h1>
+    <h1><a href="index.php">WEBUKATU MARKET</a></h1>
     <nav id="top-nav">
       <ul>
         <!-- $_SESSION['user_id']が入っている=ログイン状態である
