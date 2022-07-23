@@ -101,7 +101,7 @@ function validEmailDup($email){
   // 例外処理
   try {
     // DBへ接続
-    $dbh = sbConnect();
+    $dbh = dbConnect();
     // SQL文作成
     $sql = 'SELECT count(*) FROM users WHERE email = :email AND delete_flg = 0';
     $data = array(':email' => $email);
@@ -154,3 +154,164 @@ function validTel($str, $key){
   }
 }
 // 郵便番号形式チェック
+function validZip($str, $key){
+  if(!preg_match("/^\d(7)$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG11;
+  }
+}
+//半角数字チェック
+function validNumber($str, $key){
+  if(!preg_match("/^[0-9]+$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG11;
+  }
+}
+//固定長チェック
+function validLength($str, $key, $len = 8){
+  if( mb_strlen($str) !== $len){
+    global $err_msg;
+    $err_msg[$key] = $len . MSG14;
+  }
+}
+//パスワードチェック
+function validPass($str, $key){
+  //半角英数字チェック
+  validHalf($str, $key);
+  //最大文字数チェック
+  ValidMaxLen($str, $key);
+  //最小文字数チェック
+  validMinLen($str, $key);
+}
+//エラーメッセージ表示
+function getErrMsg($key){
+  global $err_msg;
+  if(!empty($err_msg[$key])){
+    return $err_msg[$key];
+  }
+}
+
+//===============================
+//  データベース
+//===============================
+// DB接続関数
+function dbConnect(){
+  // DBへの接続準備
+  $dsn = 'mysql:dbname=freemarket;host=localhost;charset=utf8';
+  $user = 'root';
+  $password = 'root';
+  $options = array(
+    // SQL実行失敗時にはエラーコードのみ設定
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    // デフォルトフェッチモードを連想配列形式に設定
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    // バッファードクエリを使う（一度結果セットを全て取得し、サーバーの負荷を軽減）
+    // SELECTで得た結果に対してもrowCountメソッドを使えるようにする
+    PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
+  );
+  // PDOオブジェクト生成（DBへ接続）
+  $dbh = new PDO($dsn, $user, $password, $options);
+  return $dbh;
+}
+// SQL実行関数
+function queryPost($dbh, $sql, $data){
+  // クエリー作成
+  $stmt = $dbh->prepare($sql);
+  // プレースホルダに値をセットし、SQL文を実行
+  $stmt->execute($data);
+  return $stmt;
+}
+function getUser($u_id){
+  debug('ユーザー情報を取得します。');
+  // 例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    // クエリ成功の場合
+    if($stmt){
+      debug('クエリ成功');
+    }else{
+      debug('クエリに失敗しました');
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+  }
+  // クエリ結果のデータを返却
+  return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+//===============================
+//  メール送信
+//===============================
+function sendMail($from, $to, $subject, $comment){
+  if(!empty($to) && !empty($subject) && !empty($comment)){
+    // 文字化けしないように設定（お決まりパターン）
+    mb_language("Japanese"); // 現在使っている言語を設定する
+    mb_internal_encoding("UTF-8"); // 内部の日本語を同エンコーディング（機会がわかる言語へ変換）するかを設定
+
+    // メールを送信（送信結果はtrueかfalseで帰ってくる）
+    $result = mb_send_mail($to, $subject, $comment, "From: ".$from);
+    // 送信結果を判定
+    if ($result) {
+      debug('メールを送信しました。');
+    } else {
+      debug('【エラー発生】メールの送信に失敗しました。');
+    }
+  }
+}
+
+//===============================
+//  その他
+//===============================
+// フォーム入力保持
+function getFormData($key){
+  global $dbFormData;
+  // ユーザーデータがある場合
+  if(!empty($dbFormData)){
+    // フォームのエラーがある場合
+    if(!empty($err_msg[$key])){
+      // POSTにデータがある場合
+      if(isset($_POST[$key])){
+        return $_POST[$key];
+      }else{
+        // ない場合（基本あり得ない）はDBの情報を表示
+        return $dbFormData[$key];
+      }
+    }else{
+      // POSTにデータがあり、DBの情報と違う場合
+      if(isset($_POST[$key]) && $_POST[$key] !== $dbFormData[$key]){
+        return $_POST[$key];
+      }else{
+        return $dbFormData[$key];
+      }
+    }
+  }else{
+    if(isset($_POST[$key])){
+      return $_POST[$key];
+    }
+  }
+}
+// sessionを1回だけ取得できる
+function getSessionFlash($key){
+  if(!empty($_SESSION[$key])){
+    $data = $_SESSION[$key];
+    $_SESSION[$key] = '';
+    return $data;
+  }
+}
+// 認証キー生成
+function makeRandKey($length = 8) {
+  static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  $str = '';
+  for ($i = 0; $i < $length; ++$i) {
+    $str .= $chars[mt_rand(0, 61)];
+  }
+  return $str;
+}
+
