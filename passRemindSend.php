@@ -15,8 +15,8 @@ debugLogStart();
 //================================
 //post送信されていた場合
 if(!empty($_POST)){
-  debug('POST情報があります。');
-  debug('POSTじょうほう:'.print_r($_POST,true));
+  debug('POST送信があります。');
+  debug('POST情報：'.print_r($_POST,true));
 
   // 変数にPOST情報代入
   $email = $_POST['email'];
@@ -48,7 +48,7 @@ if(!empty($_POST)){
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // EmailがDBに登録されている場合
-        if($stmt &&  array_shift($result)){
+        if($stmt && array_shift($result)){
           debug('クエリ成功。DB登録あり。');
           $_SESSION['msg_success'] = SUC03;
 
@@ -93,7 +93,7 @@ EOT;
         }
 
       } catch (Exception $e) {
-        error_log('エラー発生：' . $e->getMessage());
+        error_log('エラー発生:' . $e->getMessage());
         $err_msg['common'] = MSG07;
       }
     }
@@ -127,7 +127,7 @@ require('head.php');
               if(!empty($err_msg['common'])) echo $err_msg['common'];
               ?>
             </div>
-            <label class="<?php if(!empty($err_msg['email'])) echo 'err' ?>">
+            <label class="<?php if(!empty($err_msg['email'])) echo 'err'; ?>">
               Email
               <input type="text" name="email" value="<?php echo getFormData('email'); ?>">
             </label>

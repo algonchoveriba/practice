@@ -17,7 +17,7 @@ require('head.php');
       <section id="sidebar">
         <form>
           <h1 class="title">カテゴリー</h1>
-          <div class="select-box">
+          <div class="selectbox">
             <span class="icn_select"></span>
             <select name="category">
               <option value="1">パソコン</option>
@@ -25,7 +25,7 @@ require('head.php');
             </select>
           </div>
           <h1 class="title">表示順</h1>
-          <div class="select-box">
+          <div class="selectbox">
             <span class="icn_select"></span>
             <select name="sort">
               <option value="1">金額が安い順</option>
@@ -37,8 +37,8 @@ require('head.php');
 
       </section>
 
-      <!-- main -->
-      <section id="main">
+      <!-- Main -->
+      <section id="main" >
         <div class="search-title">
           <div class="search-left">
             <span class="total-num">104</span>件の商品が見つかりました

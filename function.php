@@ -38,7 +38,7 @@ session_regenerate_id();
 //  画面表示処理開始ログ吐き出し関数
 //==============================
 function debugLogStart(){
-  debug('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示開始');
+  debug('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始');
   debug('セッションID：'.session_id());
   debug('セッション変数の中身：'.print_r($_SESSION,true));
   debug('現在日時タイムスタンプ：'.time());
@@ -58,7 +58,7 @@ define('MSG04', '半角英数字のみご利用いただけます');
 define('MSG05', '6文字以上で入力してください');
 define('MSG06', '256文字以内で入力してください');
 define('MSG07', 'エラーが発生しました。しばらく経ってからやり直してください。');
-define('MSG08', 'そのEmailはすでに登録されています');
+define('MSG08', 'そのEmailは既に登録されています');
 define('MSG09', 'メールアドレスまたはパスワードが違います');
 define('MSG10', '電話番号の形式が違います');
 define('MSG11', '郵便番号の形式が違います');
@@ -85,7 +85,7 @@ $err_msg = array();
 
 // バリデーション関数（未入力チェック）
 function validRequired($str, $key){
-  if(empty($str)){
+  if($str === ''){ //金額フォームなどを考えると数値の０はOKにし、空文字はダメにする
     global $err_msg;
     $err_msg[$key] = MSG01;
   }
@@ -116,7 +116,7 @@ function validEmailDup($email){
       $err_msg['email'] = MSG08;
     }
   } catch (Exception $e) {
-    error_log('エラー発生：' . $e->getMessage());
+    error_log('エラー発生:' . $e->getMessage());
     $err_msg['common'] = MSG07;
   }
 }
@@ -136,7 +136,7 @@ function validMinLen($str, $key, $min = 6){
 }
 // バリデーション関数（最大文字数チェック）
 function validMaxLen($str, $key, $max = 256){
-  if (mb_strlen($str) > $max){
+  if(mb_strlen($str) > $max){
     global $err_msg;
     $err_msg[$key] = MSG06;
   }
@@ -157,7 +157,7 @@ function validTel($str, $key){
 }
 // 郵便番号形式チェック
 function validZip($str, $key){
-  if(!preg_match("/^\d(7)$/", $str)){
+  if(!preg_match("/^\d{7}$/", $str)){
     global $err_msg;
     $err_msg[$key] = MSG11;
   }
@@ -166,12 +166,12 @@ function validZip($str, $key){
 function validNumber($str, $key){
   if(!preg_match("/^[0-9]+$/", $str)){
     global $err_msg;
-    $err_msg[$key] = MSG11;
+    $err_msg[$key] = MSG17;
   }
 }
 //固定長チェック
 function validLength($str, $key, $len = 8){
-  if( mb_strlen($str) !== $len){
+  if( mb_strlen($str) !== $len ){
     global $err_msg;
     $err_msg[$key] = $len . MSG14;
   }
@@ -181,7 +181,7 @@ function validPass($str, $key){
   //半角英数字チェック
   validHalf($str, $key);
   //最大文字数チェック
-  ValidMaxLen($str, $key);
+  validMaxLen($str, $key);
   //最小文字数チェック
   validMinLen($str, $key);
 }
@@ -211,10 +211,10 @@ function dbConnect(){
   $password = 'root';
   $options = array(
     // SQL実行失敗時にはエラーコードのみ設定
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT,
     // デフォルトフェッチモードを連想配列形式に設定
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    // バッファードクエリを使う（一度結果セットを全て取得し、サーバーの負荷を軽減）
+    // バッファードクエリを使う(一度に結果セットをすべて取得し、サーバー負荷を軽減)
     // SELECTで得た結果に対してもrowCountメソッドを使えるようにする
     PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
   );
@@ -249,7 +249,7 @@ function getUser($u_id){
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
+    $sql = 'SELECT * FROM users  WHERE id = :u_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -282,7 +282,7 @@ function getProduct($u_id, $p_id){
     $dbh = dbConnect();
     // SQL文作成
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND id = :p_id AND delete_flg = 0';
-    $data = array(':u_id' => $u_id, 'p_id' => $p_id);
+    $data = array(':u_id' => $u_id, ':p_id' => $p_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
 
@@ -294,7 +294,7 @@ function getProduct($u_id, $p_id){
     }
 
   } catch (Exception $e) {
-    error_log('エラー発生' . $e->getMessage());
+    error_log('エラー発生:' . $e->getMessage());
   }
 }
 function getCategory(){
@@ -317,7 +317,7 @@ function getCategory(){
     }
 
   } catch (Exception $e) {
-    error_log('エラー発生：' . $e->getMessage());
+    error_log('エラー発生:' . $e->getMessage());
   }
 }
 //===============================
@@ -327,9 +327,9 @@ function sendMail($from, $to, $subject, $comment){
   if(!empty($to) && !empty($subject) && !empty($comment)){
     // 文字化けしないように設定（お決まりパターン）
     mb_language("Japanese"); // 現在使っている言語を設定する
-    mb_internal_encoding("UTF-8"); // 内部の日本語を同エンコーディング（機会がわかる言語へ変換）するかを設定
+    mb_internal_encoding("UTF-8"); // 内部の日本語をどうエンコーディング（機械が分かる言葉へ変換）するかを設定
 
-    // メールを送信（送信結果はtrueかfalseで帰ってくる）
+    // メールを送信（送信結果はtrueかfalseで返ってくる）
     $result = mb_send_mail($to, $subject, $comment, "From: ".$from);
     // 送信結果を判定
     if ($result) {
@@ -397,7 +397,7 @@ function uploadImg($file, $key){
     try {
       // バリデーション
       // $file['error']の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
-      // 「UPLOAD_ERR_OK」などの定数ではphpでファイルアップロード時に自動的に定義される。定数には値として０や１などの数値が入っている
+      // 「UPLOAD_ERR_OK」などの定数はphpでファイルアップロード時に自動的に定義される。定数には値として０や１などの数値が入っている
       switch ($file['error']) {
         case UPLOAD_ERR_OK: // OK
           break;
@@ -417,7 +417,7 @@ function uploadImg($file, $key){
         throw new RuntimeException('画像形式が未対応です');
       }
 
-      // ファイルデータからSHA-1ハッシュをとってファイル名を決定し、ファイル名を保存する
+      // ファイルデータからSHA-1ハッシュをとってファイル名を決定し、ファイルを保存する
       // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
       // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
       // image_type_to_extension関数はファイルの拡張子を取得するもの

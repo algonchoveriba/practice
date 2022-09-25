@@ -79,7 +79,7 @@ if(!empty($_POST)) {
           // EOTはEndOfTransmissionの略。ABCでもなんでもいい。先頭の<<<の後の文字列と合わせること。最後のEOTの前後に空白など何も入れてはいけない。
           // EOT内の半角空白も全てそのまま半角空白として扱われるのでインデントはしないこと
           $comment = <<<EOT
-{$username}さん
+{$username}　さん
 パスワードが変更されました。
                        
 ////////////////////////////////////////////
@@ -111,14 +111,14 @@ require('head.php');
 
   <body class="page-passEdit page-2colum page-logined">
     <style>
-      .font{
+      .form{
         margin-top: 50px;
       }
     </style>
 
     <!-- メニュー -->
     <?php
-    require('header.php')
+    require('header.php');
     ?>
 
     <!-- メインコンテンツ -->
@@ -133,7 +133,7 @@ require('head.php');
               echo getErrMsg('common');
               ?>
             </div>
-            <label class="<?php if(!empty($err_msg['pass_old'])) echo 'err' ?>">
+            <label class="<?php if(!empty($err_msg['pass_old'])) echo 'err'; ?>">
               古いパスワード
               <input type="password" name="pass_old" value="<?php echo getFormData('pass_old'); ?>">
             </label>

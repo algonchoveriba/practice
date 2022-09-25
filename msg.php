@@ -54,7 +54,7 @@ require('head.php');
       padding: 15px;
       overflow: hidden;
     }
-    .area-sens-msg textarea{
+    .area-send-msg textarea{
       width: 100%;
       background: white;
       height: 100px;
@@ -100,7 +100,7 @@ require('head.php');
       border-top: 10px solid transparent;
       border-right: 15px solid #f6e2df;
       border-left: 10px solid transparent;
-      border-bottom: solid transparent;
+      border-bottom: 10px solid transparent;
     }
     .area-board .msg-cnt.msg-right{
       float: right;
@@ -223,17 +223,17 @@ require('head.php');
           </p>
         </div>
       </div>
-      <div class="area-send msg">
+      <div class="area-send-msg">
         <textarea name="" id="" cols="30" rows="3"></textarea>
         <input type="submit" value="送信" class="btn btn-send">
       </div>
     </section>
 
-    <script src="js/vender/jquery-2.2.2.min.js"></script>
+    <script src="js/vendor/jquery-2.2.2.min.js"></script>
 
     <script>
       $(function(){
-        $('#js-scroll-bottom').animate({scrollTop: $('#jsj-scroll-bottom')[0].scrollHeight}, 'slow');
+        $('#js-scroll-bottom').animate({scrollTop: $('#js-scroll-bottom')[0].scrollHeight}, 'fast');
       });
     </script>
 

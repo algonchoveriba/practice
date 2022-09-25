@@ -15,10 +15,10 @@ $siteTitle = 'マイページ';
 require('head.php');
 ?>
 
-< class="page-mypage page-2colum page-logined">
+<body class="page-mypage page-2colum page-logined">
   <style>
     #main{
-      border: none  !important;
+      border: none !important;
     }
   </style>
 
@@ -84,7 +84,7 @@ require('head.php');
 
       <section class="list list-table">
         <h2 class="title">
-          連絡掲示板
+          連絡掲示板一覧
         </h2>
         <table class="table">
           <thead>
@@ -125,7 +125,7 @@ require('head.php');
         </h2>
         <a href="" class="panel">
           <div class="panel-head">
-            <img src="img.sample01.jpg" alt="商品タイトル">
+            <img src="img/sample01.jpg" alt="商品タイトル">
           </div>
           <div class="panel-body">
             <p class="panel-title">iPhone6s <span class="price">¥89,000</span></p>
@@ -157,6 +157,7 @@ require('head.php');
           </a>
       </section>
     </section>
+    
     <!-- サイドバー -->
     <?php
       require('sidebar_mypage.php');

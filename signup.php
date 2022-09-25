@@ -55,7 +55,7 @@ if(!empty($_POST)){
           $dbh = dbConnect();
           // SQL文作成
           $sql = 'INSERT INTO users (email,password,login_time,create_date) VALUES(:email,:pass,:login_time,:create_date)';
-          $data = array(':email' => $email, 'pass' => password_hash($pass, PASSWORD_DEFAULT),
+          $data = array(':email' => $email, ':pass' => password_hash($pass, PASSWORD_DEFAULT),
                         ':login_time' => date('Y-m-d H:i:s'),
                         ':create_date' => date('Y-m-d H:i:s'));
           // クエリ実行
@@ -80,7 +80,7 @@ if(!empty($_POST)){
           }
 
         } catch (Exception $e) {
-          error_log('エラー発生：' . $e->getMessage());
+          error_log('エラー発生:' . $e->getMessage());
           $err_msg['common'] = MSG07;
         }
 
@@ -126,7 +126,7 @@ if(!empty($_POST)){
             ?>
           </div>
           <label class="<?php if(!empty($err_msg['pass'])) echo 'err' ?>">
-            パスワード <span style="font-size:12px;">※英数字6文字以上</span>
+            パスワード <span style="font-size:12px;">※英数字６文字以上</span>
             <input type="password" name="pass" value="<?php if(!empty($_POST['pass'])) echo $_POST['pass']; ?>">
           </label>
           <div class="area-msg">

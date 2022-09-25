@@ -54,9 +54,9 @@ if(!empty($_POST)){
   // 画像をPOSTしていない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには羽位されないので）
   $pic1 = ( empty($pic1) && !empty($dbFormData['pic1']) ) ? $dbFormData['pic1'] : $pic1;
   $pic2 = ( !empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic2'],'pic2') : '';
-  $pic2 = ( empty($pic1) && !empty($dbFormData['pic2']) ) ? $dbFormData['pic2'] : $pic1;
+  $pic2 = ( empty($pic2) && !empty($dbFormData['pic2']) ) ? $dbFormData['pic2'] : $pic2;
   $pic3 = ( !empty($_FILES['pic3']['name']) ) ? uploadImg($_FILES['pic3'],'pic3') : '';
-  $pic3 = ( empty($pic1) && !empty($dbFormData['pic3']) ) ? $dbFormData['pic3'] : $pic1;
+  $pic3 = ( empty($pic3) && !empty($dbFormData['pic3']) ) ? $dbFormData['pic3'] : $pic3;
 
   // 更新の場合はDBの情報と入力情報が異なる場合にバリデーションを行う
   if(empty($dbFormData)){
@@ -120,7 +120,7 @@ if(!empty($_POST)){
         );
       }else{
         debug('DB新規登録です。');
-        $sql = 'INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, ,user_id, create_date ) VALUES (:name, :category, :comment, :pic1, :pic2, :pic3, :u_id, :date';
+        $sql = 'INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)';
         $data = array(
           ':name' => $name,
           ':category' => $category,
@@ -136,17 +136,17 @@ if(!empty($_POST)){
       debug('SQL：'.$sql);
       debug('流し込みデータ：'.print_r($data,true));
       // クエリ実行
-      $stmt =queryPost($dbh, $sql, $data);
+      $stmt = queryPost($dbh, $sql, $data);
 
       // クエリ成功の場合
       if($stmt){
         $_SESSION['msg_success'] = SUC04;
         debug('マイページへ遷移します。');
-        header("Location:mypage.php");
+        header("Location:mypage.php"); //マイページへ
       }
 
     } catch (Exception $e) {
-      error_log('エラー発生：' . $e->getMessage());
+      error_log('エラー発生:' . $e->getMessage());
       $err_msg['common'] = MSG07;
     }
   }
@@ -177,7 +177,7 @@ require('head.php');
             if(!empty($err_msg['common'])) echo $err_msg['common'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['name'])) echo 'err' ?>">
+          <label class="<?php if(!empty($err_msg['name'])) echo 'err'; ?>">
             商品名<span class="label-require">必須</span>
             <input type="text" name="name" value="<?php echo getFormData('name'); ?>">
           </label>
@@ -186,7 +186,7 @@ require('head.php');
             if(!empty($err_msg['name'])) echo $err_msg['name'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['category_id'])) echo 'err' ?>">
+          <label class="<?php if(!empty($err_msg['category_id'])) echo 'err';?>">
             カテゴリ<span class="label-require">必須</span>
             <select name="category_id" id="">
               <option value="0" <?php if(getFormData('category_id') == 0){ echo 'selected'; } ?> >選択してください</option>
@@ -289,7 +289,3 @@ require('head.php');
     <?php
     require('footer.php'); 
     ?>
-        </form>
-        </div>
-      </section>
-    </div>

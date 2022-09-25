@@ -101,7 +101,7 @@ EOT;
           }
 
         } catch (Exception $e) {
-          error_log('エラー発生：' . $e->getMessage());
+          error_log('エラー発生:' . $e->getMessage());
           $err_msg['common'] = MSG07;
         }
       }
@@ -137,7 +137,7 @@ require('head.php');
             <div class="area-msg">
               <?php if(!empty($err_msg['common'])) echo $err_msg['common']; ?>
             </div>
-            <label class="<?php if(!empty($err_msg['token'])) echo 'err' ?>">
+            <label class="<?php if(!empty($err_msg['token'])) echo 'err'; ?>">
               認証キー
               <input type="text" name="token" value="<?php echo getFormData('token'); ?>">
             </label>

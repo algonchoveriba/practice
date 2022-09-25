@@ -71,23 +71,23 @@ if(!empty($_POST)){
           // ログイン有効期限を30日にしてセット
           $_SESSION['login_limit'] = $sesLimit * 24 * 30;
         }else{
-          debug('ログイン保持にチェックがありません。');
-          // 次回からログインの保持をしないので、ログイン有効期限を1時間後にセット
+          debug('ログイン保持にチェックはありません。');
+          // 次回からログイン保持しないので、ログイン有効期限を1時間後にセット
           $_SESSION['login_limit'] = $sesLimit;
         }
         // ユーザーIDを格納
         $_SESSION['user_id'] = $result['id'];
 
         debug('セッション変数の中身：'.print_r($_SESSION,true));
-        debug('マイページに遷移します。');
-        header("Location:mypage.php");
+        debug('マイページへ遷移します。');
+        header("Location:mypage.php"); //マイページへ
       }else{
         debug('パスワードがアンマッチです。');
         $err_msg['common'] = MSG09;
       }
 
     } catch (Exception $e) {
-      error_log('エラー発生：' . $e->getMessage());
+      error_log('エラー発生:' . $e->getMessage());
       $err_msg['common'] = MSG07;
     }
   }
@@ -135,7 +135,7 @@ require('head.php');
           </div>
           <label class="<?php if(!empty($err_msg['pass'])) echo 'err'; ?>">
           パスワード
-          <input type="password" name="pass" value="<?php if(!empty($err_msg['pass'])) echo $_POST['pass']; ?>">
+          <input type="password" name="pass" value="<?php if(!empty($_POST['pass'])) echo $_POST['pass']; ?>">
           </label>
           <div class="area-msg">
             <?php
@@ -148,7 +148,7 @@ require('head.php');
           <div class="btn-container">
             <input type="submit" class="btn btn-mid" value="ログイン">
           </div>
-          パスワードを忘れた方は<a href="passRemindSend.php">こちら</a>
+          パスワードを忘れた方は<a href="passRemindSend.php">コチラ</a>
         </form>
       </div>
 

@@ -93,7 +93,7 @@ if(!empty($_POST)){
       }
 
     } catch (Exception $e) {
-      error_log('エラー発生；' . $e->getMessage());
+      error_log('エラー発生:' . $e->getMessage());
       $err_msg['common'] = MSG07;
     }
   }
@@ -124,17 +124,17 @@ require('head.php');
             if(!empty($err_msg['common'])) echo $err_msg['common'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['username'])) echo 'err' ?>">
+          <label class="<?php if(!empty($err_msg['username'])) echo 'err'; ?>">
             名前
             <input type="text" name="username" value="<?php echo getFormData('username'); ?>">
           </label>
           <div class="area-msg">
             <?php
-            if(!empty($err_msg['user_name'])) echo $err_msg['username'];
+            if(!empty($err_msg['username'])) echo $err_msg['username'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['tel'])) echo 'err' ?>">
-            TEL <span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span>
+          <label class="<?php if(!empty($err_msg['tel'])) echo 'err'; ?>">
+            TEL<span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span>
             <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>">
           </label>
           <div class="area-msg">
@@ -151,7 +151,7 @@ require('head.php');
             if(!empty($err_msg['zip'])) echo $err_msg['zip'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['addr'])) echo 'err' ?>">
+          <label class="<?php if(!empty($err_msg['addr'])) echo 'err'; ?>">
             住所
             <input type="text" name="addr" value="<?php echo getFormData('addr'); ?>">
           </label>
@@ -160,7 +160,7 @@ require('head.php');
             if(!empty($err_msg['addr'])) echo $err_msg['addr'];
             ?>
           </div>
-          <label style="text-align:left;" class="<?php if(!empty($err_msg['age'])) echo 'err' ?>">
+          <label style="text-align:left;" class="<?php if(!empty($err_msg['age'])) echo 'err'; ?>">
             年齢
             <input type="number" name="age" value="<?php echo getFormData('age'); ?>">
           </label>
@@ -169,7 +169,7 @@ require('head.php');
             if(!empty($err_msg['age'])) echo $err_msg['age'];
             ?>
           </div>
-          <label class="<?php if(!empty($err_msg['email'])) echo 'err' ?>">
+          <label class="<?php if(!empty($err_msg['email'])) echo 'err'; ?>">
             Email
             <input type="text" name="email" value="<?php echo getFormData('email'); ?>">
           </label>
@@ -194,5 +194,5 @@ require('head.php');
 
   <!-- footer -->
   <?php
-  require('footer');
+  require('footer.php');
   ?>
