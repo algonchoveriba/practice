@@ -2,7 +2,7 @@
   Copyright <a href="http://webukatu.com/">ウェブカツ!!WEBサービス部</a>. All Rights Reserved.
 </footer>
 <!-- jquery読み込み -->
-<script src="js/vendor/jquery-3.6.0.min.js"></script>
+<script src="js/vendor/jquery-3.6.1.min.js"></script>
 <script>
   $(function(){
     //フッターをページの長さに合わせて下部に固定する関数(お決まり)
@@ -21,7 +21,7 @@
     // 画像ライブプレビュー
     var $dropArea = $('.area-drop');
     var $fileInput = $('.input-file');
-    $dropArea.on('click', function(e){
+    $dropArea.on('dragover', function(e){
       e.stopPropagation();
       e.preventDefault();
       $(this).css('border', '3px #ccc dashed');

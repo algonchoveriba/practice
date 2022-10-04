@@ -236,6 +236,7 @@ function queryPost($dbh, $sql, $data){
   // プレースホルダに値をセットし、SQL文を実行
   if(!$stmt->execute($data)){
     debug('クエリに失敗しました。');
+    debug('失敗したSQL：'.print_r($stmt,true));
     $err_msg['common'] = MSG07;
     return 0;
   }
@@ -297,6 +298,57 @@ function getProduct($u_id, $p_id){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+function getProductList($currentMinNum = 1, $span = 20){
+  debug('商品情報を取得します。');
+  // 例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // 件数用のSQL文作成
+    $sql = 'SELECT id FROM product';
+    $data = array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $rst['total'] = $stmt->rowCount(); //総レコード数
+    $rst['total_page'] = ceil($rst['total']/$span); //総ページ数
+    if(!$stmt){
+      return false;
+    }
+
+    // ページング用のSQL文作成
+    $sql = 'SELECT * FROM product';
+//    if(!empty($category)) $sql .= ' WHERE category = '.$category;
+//    if(!empty($sort)){
+//      switch($sort){
+//        case 1:
+//          $sql .= ' ORDER BY price ASC';
+//          break;
+//        case 2:
+//          $sql .= ' ORDER BY price DESC';
+//          break;
+//        case 3:
+//          $sql .= ' ORDER BY create_date DESC';
+//          break;
+//      }
+//    } 
+$sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
+$data = array();
+debug('SQL：'.$sql);
+// クエリ実行
+$stmt = queryPost($dbh, $sql, $data);
+
+if($stmt){
+  // クエリ結果のデータを全レコードを格納
+  $rst['data'] = $stmt->fetchAll();
+  return $rst;
+}else{
+  return false;
+}
+
+} catch (Exception $e) {
+error_log('エラー発生:' . $e->getMessage());
+  }
+}
 function getCategory(){
   debug('カテゴリー情報を取得します。');
   // 例外処理
@@ -343,39 +395,43 @@ function sendMail($from, $to, $subject, $comment){
 //===============================
 //  その他
 //===============================
+// サニタイズ
+function sanitize($str){
+  return htmlspecialchars($str,ENT_QUOTES);
+}
 // フォーム入力保持
-function getFormData($key){
+function getFormData($str){
   global $dbFormData;
   // ユーザーデータがある場合
   if(!empty($dbFormData)){
     // フォームのエラーがある場合
-    if(!empty($err_msg[$key])){
+    if(!empty($err_msg[$str])){
       // POSTにデータがある場合
-      if(isset($_POST[$key])){
-        return $_POST[$key];
+      if(isset($_POST[$str])){
+        return sanitize($_POST[$str]);
       }else{
         // ない場合（基本あり得ない）はDBの情報を表示
-        return $dbFormData[$key];
+        return sanitize($dbFormData[$str]);
       }
     }else{
       // POSTにデータがあり、DBの情報と違う場合
-      if(isset($_POST[$key]) && $_POST[$key] !== $dbFormData[$key]){
-        return $_POST[$key];
+      if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
+        return sanitize($_POST[$str]);
       }else{
-        return $dbFormData[$key];
+        return sanitize($dbFormData[$str]);
       }
     }
   }else{
-    if(isset($_POST[$key])){
-      return $_POST[$key];
+    if(isset($_POST[$str])){
+      return sanitize($_POST[$str]);
     }
   }
 }
 // sessionを1回だけ取得できる
-function getSessionFlash($key){
-  if(!empty($_SESSION[$key])){
-    $data = $_SESSION[$key];
-    $_SESSION[$key] = '';
+function getSessionFlash($str){
+  if(!empty($_SESSION[$str])){
+    $data = $_SESSION[$str];
+    $_SESSION[$str] = '';
     return $data;
   }
 }
@@ -406,7 +462,7 @@ function uploadImg($file, $key){
         case UPLOAD_ERR_INI_SIZE: // php.ini定義の最大サイズが超過した場合
         case UPLOAD_ERR_FORM_SIZE: // フォーム定義の最大サイズが超過した場合
           throw new RuntimeException('ファイルサイズが大きすぎます');
-        default:
+        default: // その他の場合
           throw new RuntimeException('その他のエラーが発生しました');
       }
 

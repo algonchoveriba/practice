@@ -1,0 +1,2680 @@
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：セッションID：pq9umi0il0ibt23v6556qk0dbf
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204091
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：商品ID：
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP Warning:  require(sidebar_mypage.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/registProduct.php on line 284
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP Stack trace:
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'sidebar_mypage.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/private/practice/registProduct.php on line 284
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP Stack trace:
+[26-Sep-2022 23:54:51 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「　ログインページ　
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：セッションID：e3883uak1m8fntfv2k6kufkdle
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204091
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[26-Sep-2022 23:54:51 Asia/Tokyo] デバッグ：画面表示終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「　ログインページ　
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：セッションID：1ne2mngott5sff679s7ghbm8kj
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204107
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：バリデーションOKです。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$9a0K4inAWo9wiC.eMrVMo.ADyZehEJ4l07MXNzl3Pna5cqBAdi2Ju
+    [id] => 3
+)
+
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204107
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：画面表示終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「　マイページ　
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：セッションID：m1oiu21f42eh0o1b04k2ut1p70
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204107
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204107
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796107
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Sep-2022 23:55:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP Warning:  require(sidebar_mypage.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/mypage.php on line 163
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP Stack trace:
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/mypage.php:0
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'sidebar_mypage.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php') in /Applications/MAMP/htdocs/private/practice/mypage.php on line 163
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP Stack trace:
+[26-Sep-2022 23:55:07 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/mypage.php:0
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：「　マイページ　
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：セッションID：nda0fb4749gh4hcbjbtso1muet
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204107
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204386
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796107
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Sep-2022 23:59:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：「　マイページ　
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：セッションID：cobjeqdqatab1lgi17dgd10rka
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204386
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204387
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796386
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Sep-2022 23:59:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：セッションID：die70elll6s9nlqpgtp9lrsca5
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204387
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204392
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796387
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：商品ID：
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[26-Sep-2022 23:59:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：セッションID：j1ri1kpi25cssr6k46ue673lq2
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204392
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204783
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796392
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:06:23 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：セッションID：55i19s0dp45i5gf946707gjk6h
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204783
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204814
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796783
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 0
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：バリデーションOKです。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：DB新規登録です。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：SQL：INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：流し込みデータ：Array
+(
+    [:name] => ミズノ　マウンテンバイク
+    [:category] => 0
+    [:price] => 0
+    [:comment] => 
+    [:pic1] => 
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 3
+    [:date] => 2022-09-27 00:06:54
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：セッションID：pgolojih7o3mnop51mrvnsiugo
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204814
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 登録しました
+)
+
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204814
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796814
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:06:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：セッションID：qpumhiegepet3bf3mppea1hqlr
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204814
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204819
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796814
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:06:59 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：セッションID：23it7r3rit9e00e7ae9iokoh6h
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204819
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664204886
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796819
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:08:06 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpO50Mll
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpO50Mll
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phpO50Mll' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:08:07 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 00:08:07 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：セッションID：mcueljmit2qmkmgj0fbbicji9u
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664204886
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664205010
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666796886
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpbRHNFe
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpbRHNFe
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phpbRHNFe' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:10:10 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 00:10:10 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：セッションID：7mhelqfnqhs4q8pmta0mumjjl7
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664205010
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664205253
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666797010
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpO1YiRa
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpO1YiRa
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phpO1YiRa' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:14:13 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 00:14:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：セッションID：kpt9deege0q37dsu11njrq9j36
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664205253
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664205266
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666797253
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpKbCbVJ
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpKbCbVJ
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phpKbCbVJ' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 00:14:26 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 00:14:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：セッションID：06adneudn8tpnu9fr2daomf837
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664205932
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208010
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666797932
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:00:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：セッションID：5tg6obng438q2b7k8ii69n5pmu
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208010
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208019
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800010
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:00:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：セッションID：m7i6crnmk9u9eab160hv50d3fp
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208019
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208021
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800019
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:00:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：セッションID：srki388norcrr3pnv5t7fopfe4
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208021
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208039
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800021
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：バリデーションOKです。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：DB新規登録です。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：SQL：INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：流し込みデータ：Array
+(
+    [:name] => ミズノ　マウンテンバイク
+    [:category] => 3
+    [:price] => 0
+    [:comment] => 
+    [:pic1] => 
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 3
+    [:date] => 2022-09-27 01:00:39
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：セッションID：n48gcqrqi7sa26ure9cfchkaan
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208039
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 登録しました
+)
+
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208039
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800039
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:00:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：セッションID：i9flkvl95a3g5tloehspvk7q5k
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208039
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208115
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800039
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:01:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：セッションID：3e5d3hrr53st598upl809lhda4
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208115
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208171
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800115
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpph60QK
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpph60QK
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phpph60QK' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:02:51 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 01:02:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：セッションID：f8eo4443h80nucfj99m1iu5rs0
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208171
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664208227
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800171
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/php2L0Vud
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/php2L0Vud
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/php2L0Vud' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:03:47 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 01:03:47 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：セッションID：babsc6svhaukpm8mkjoq70a3so
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664208227
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664209964
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666800227
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    [price] => 12345
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/php03vlsh
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/php03vlsh
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/php03vlsh' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:32:44 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 01:32:44 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：セッションID：s7e9o3ug82drc3192oaq94rqj6
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664209964
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664209970
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666801964
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:32:50 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：セッションID：ijutqg4hd7vfvudvj83bhr6606
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664209970
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664209971
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666801970
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:32:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：セッションID：u6e59jtjb44mlrei8e7a654sdi
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664209971
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210110
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666801971
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:35:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：セッションID：t702o5tebi66tuehjhlqflb1r5
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210110
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210112
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802110
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:35:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：セッションID：3c8drue0hg98iekgebmqe4i6nn
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210112
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210115
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802112
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:35:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：セッションID：1t7k27iauavrlt613u3kd36ta5
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210115
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210190
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802115
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phphAk6G6
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phphAk6G6
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/phphAk6G6' to 'uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:36:30 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 01:36:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：セッションID：552gtmmcfa7d74idii6b4sa27n
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210190
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210317
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802190
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:38:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：セッションID：156k1k2mmtg3tnm85m4h731kuj
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210317
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210319
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802317
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:38:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：セッションID：ojol4m072a3h044sslpfcc3gdp
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210319
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210341
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802319
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => b.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/php4w12gV
+            [error] => 0
+            [size] => 166806
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => b.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/php4w12gV
+    [error] => 0
+    [size] => 166806
+)
+
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP Warning:  move_uploaded_file(uploads/abc0860509f69c7765f7837840f6acb6629768c4.jpeg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP Warning:  move_uploaded_file(): Unable to move '/Applications/MAMP/tmp/php/php4w12gV' to 'uploads/abc0860509f69c7765f7837840f6acb6629768c4.jpeg' in /Applications/MAMP/htdocs/private/practice/function.php on line 426
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP Stack trace:
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   1. {main}() /Applications/MAMP/htdocs/private/practice/registProduct.php:0
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   2. uploadImg() /Applications/MAMP/htdocs/private/practice/registProduct.php:53
+[27-Sep-2022 01:39:01 Asia/Tokyo] PHP   3. move_uploaded_file() /Applications/MAMP/htdocs/private/practice/function.php:426
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：ファイル保存時にエラーが発生しました
+[27-Sep-2022 01:39:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：セッションID：qq985117v0ur03ai5jn7ugjbc9
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210341
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210443
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802341
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:40:43 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：セッションID：98qa9ig3d5l747of1hf2sbd1do
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210443
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210478
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802443
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => 
+    [category_id] => 0
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpabS6vM
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpabS6vM
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：ファイルは正常にアップロードされました
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：ファイルパス：uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+[27-Sep-2022 01:41:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「　商品出品登録ページ　
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：セッションID：qm496h1m116ek4mgdgmupvghro
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210478
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210507
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802478
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：商品ID：
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:52:14
+            [update_date] => 2022-09-23 23:52:14
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:54:36
+            [update_date] => 2022-09-23 23:54:36
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2022-09-23 23:56:07
+            [update_date] => 2022-09-23 23:56:07
+        )
+
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：POST送信があります。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [name] => ミズノ　マウンテンバイク
+    [category_id] => 3
+    [comment] => 
+    [price] => 0
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => sample04.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpB3PS0l
+            [error] => 0
+            [size] => 373586
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：画像アップロード処理開始
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [name] => sample04.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpB3PS0l
+    [error] => 0
+    [size] => 373586
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ファイルは正常にアップロードされました
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ファイルパス：uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：バリデーションOKです。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：DB新規登録です。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：SQL：INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：流し込みデータ：Array
+(
+    [:name] => ミズノ　マウンテンバイク
+    [:category] => 3
+    [:price] => 0
+    [:comment] => 
+    [:pic1] => uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 3
+    [:date] => 2022-09-27 01:41:47
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：クエリ成功。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「　マイページ　
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：セッションID：op3n8dkedknvp6j2uqmcqr475b
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1664210507
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => 登録しました
+)
+
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1664210507
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1666802507
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[27-Sep-2022 01:41:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
